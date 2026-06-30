@@ -37,7 +37,7 @@ function App() {
   try {
 
     const res = await axios.post(
-      "http://localhost:5000/api/check",
+      "https://yojanasetu.up.railway.app/api/check",
       {
         ...form,
         income: Number(form.income)
