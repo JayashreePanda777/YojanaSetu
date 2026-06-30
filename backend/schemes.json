@@ -1,0 +1,337 @@
+{
+  "central": [
+    {
+      "id": 1,
+      "name": "PM Kisan Samman Nidhi",
+      "benefit": "₹6000 per year",
+      "category": "Agriculture",
+      "eligibility": {
+        "farmer": true
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Passbook",
+        "Land Record"
+      ],
+      "apply": "https://pmkisan.gov.in/"
+    },
+    {
+      "id": 2,
+      "name": "Ayushman Bharat PM-JAY",
+      "benefit": "₹5 Lakh Health Insurance",
+      "category": "Health",
+      "eligibility": {
+        "bpl": true
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Ration Card"
+      ],
+      "apply": "https://pmjay.gov.in/"
+    },
+    {
+      "id": 3,
+      "name": "PM Ujjwala Yojana",
+      "benefit": "Free LPG Connection",
+      "category": "Women",
+      "eligibility": {
+        "female": true,
+        "bpl": true
+      },
+      "documents": [
+        "Aadhaar",
+        "Ration Card"
+      ],
+      "apply": "https://www.pmuy.gov.in/"
+    },
+    {
+      "id": 4,
+      "name": "PM Awas Yojana",
+      "benefit": "Housing Assistance",
+      "category": "Housing",
+      "eligibility": {
+        "bpl": true
+      },
+      "documents": [
+        "Aadhaar",
+        "Income Certificate"
+      ],
+      "apply": "https://pmaymis.gov.in/"
+    },
+    {
+      "id": 5,
+      "name": "PM Jan Dhan Yojana",
+      "benefit": "Zero Balance Bank Account",
+      "category": "Finance",
+      "eligibility": {},
+      "documents": [
+        "Aadhaar",
+        "PAN"
+      ],
+      "apply": "https://pmjdy.gov.in/"
+    }
+  ],
+
+  "Odisha": [
+  {
+    "id": 201,
+    "name": "Subhadra Yojana",
+    "benefit": "Financial assistance for eligible women",
+    "category": "Women",
+    "eligibility": {
+      "female": true
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Residence Proof"
+    ],
+    "apply": "https://subhadra.odisha.gov.in/"
+  },
+  {
+    "id": 202,
+    "name": "KALIA Yojana",
+    "benefit": "Financial assistance for farmers",
+    "category": "Agriculture",
+    "eligibility": {
+      "farmer": true
+    },
+    "documents": [
+      "Aadhaar",
+      "Land Record"
+    ],
+    "apply": "https://kalia.odisha.gov.in/"
+  },
+  {
+    "id": 203,
+    "name": "Biju Swasthya Kalyan Yojana",
+    "benefit": "Cashless healthcare",
+    "category": "Health",
+    "eligibility": {},
+    "documents": [
+      "BSKY Card",
+      "Aadhaar"
+    ],
+    "apply": "https://bsky.odisha.gov.in/"
+  },
+  {
+    "id": 204,
+    "name": "Madhu Babu Pension Yojana",
+    "benefit": "Monthly pension for eligible elderly, widows and persons with disabilities",
+    "category": "Pension",
+    "eligibility": {
+      "incomeBelow": 300000
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "apply": "https://ssepd.odisha.gov.in/"
+  },
+  {
+    "id": 205,
+    "name": "Banishree Scholarship",
+    "benefit": "Scholarship for students with disabilities",
+    "category": "Education",
+    "eligibility": {},
+    "documents": [
+      "Disability Certificate",
+      "Student ID",
+      "Aadhaar Card"
+    ],
+    "apply": "https://ssepd.odisha.gov.in/"
+  }
+],
+    "Tamil Nadu": [
+  {
+    "id": 301,
+    "name": "Kalaignar Magalir Urimai Thogai",
+    "benefit": "₹1000 monthly assistance for eligible women",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Aadhaar", "Ration Card"],
+    "apply": "https://kmut.tn.gov.in/"
+  },
+  {
+    "id": 302,
+    "name": "Chief Minister's Comprehensive Health Insurance Scheme",
+    "benefit": "Cashless health insurance",
+    "category": "Health",
+    "eligibility": { "bpl": true },
+    "documents": ["Health Card", "Aadhaar"],
+    "apply": "https://www.cmchistn.com/"
+  },
+  {
+    "id": 303,
+    "name": "Pudhumai Penn Scheme",
+    "benefit": "Monthly support for girl students",
+    "category": "Education",
+    "eligibility": { "female": true },
+    "documents": ["Student ID", "Aadhaar"],
+    "apply": "https://penkalvi.tn.gov.in/"
+  },
+  {
+    "id": 304,
+    "name": "Tamil Pudhalvan Scheme",
+    "benefit": "Monthly assistance for eligible boys pursuing higher education",
+    "category": "Education",
+    "eligibility": {},
+    "documents": ["Student ID", "Aadhaar"],
+    "apply": "https://www.tn.gov.in/"
+  },
+  {
+    "id": 305,
+    "name": "Amma Two Wheeler Scheme",
+    "benefit": "Subsidy for purchasing scooters",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Driving Licence", "Aadhaar"],
+    "apply": "https://www.tn.gov.in/"
+  }
+],
+
+    "West Bengal": [
+  {
+    "id": 401,
+    "name": "Lakshmir Bhandar",
+    "benefit": "Monthly financial assistance for women",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Aadhaar", "Bank Account"],
+    "apply": "https://socialsecurity.wb.gov.in/"
+  },
+  {
+    "id": 402,
+    "name": "Swasthya Sathi",
+    "benefit": "Cashless health insurance",
+    "category": "Health",
+    "eligibility": {},
+    "documents": ["Swasthya Card"],
+    "apply": "https://swasthyasathi.gov.in/"
+  },
+  {
+    "id": 403,
+    "name": "Kanyashree",
+    "benefit": "Scholarship for girls",
+    "category": "Education",
+    "eligibility": { "female": true },
+    "documents": ["School ID"],
+    "apply": "https://kanyashree.gov.in/"
+  },
+  {
+    "id": 404,
+    "name": "Rupashree",
+    "benefit": "Marriage assistance",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Aadhaar"],
+    "apply": "https://wbcdwdsw.gov.in/"
+  },
+  {
+    "id": 405,
+    "name": "Krishak Bandhu",
+    "benefit": "Financial assistance to farmers",
+    "category": "Agriculture",
+    "eligibility": { "farmer": true },
+    "documents": ["Land Record"],
+    "apply": "https://krishakbandhu.net/"
+  }
+],
+
+    "Rajasthan": [
+  {
+    "id": 501,
+    "name": "Chiranjeevi Health Insurance",
+    "benefit": "Health insurance coverage",
+    "category": "Health",
+    "eligibility": {},
+    "documents": ["Jan Aadhaar"],
+    "apply": "https://chiranjeevi.rajasthan.gov.in/"
+  },
+  {
+    "id": 502,
+    "name": "Mukhyamantri Kanyadan Yojana",
+    "benefit": "Marriage assistance",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Aadhaar"],
+    "apply": "https://sje.rajasthan.gov.in/"
+  },
+  {
+    "id": 503,
+    "name": "Indira Gandhi Shahari Rozgar Guarantee",
+    "benefit": "Urban employment",
+    "category": "Employment",
+    "eligibility": {},
+    "documents": ["Jan Aadhaar"],
+    "apply": "https://urban.rajasthan.gov.in/"
+  },
+  {
+    "id": 504,
+    "name": "Mukhyamantri Uch Shiksha Scholarship",
+    "benefit": "Scholarship for higher education",
+    "category": "Education",
+    "eligibility": {},
+    "documents": ["Student ID"],
+    "apply": "https://hte.rajasthan.gov.in/"
+  },
+  {
+    "id": 505,
+    "name": "Raj Kisan Saathi",
+    "benefit": "Support for farmers",
+    "category": "Agriculture",
+    "eligibility": { "farmer": true },
+    "documents": ["Land Record"],
+    "apply": "https://rajkisan.rajasthan.gov.in/"
+  }
+],
+
+    "Uttar Pradesh": [
+  {
+    "id": 601,
+    "name": "Mukhyamantri Kanya Sumangala",
+    "benefit": "Financial support for girl child",
+    "category": "Women",
+    "eligibility": { "female": true },
+    "documents": ["Birth Certificate", "Aadhaar"],
+    "apply": "https://mksy.up.gov.in/"
+  },
+  {
+    "id": 602,
+    "name": "UP Scholarship",
+    "benefit": "Scholarship for students",
+    "category": "Education",
+    "eligibility": {},
+    "documents": ["Student ID"],
+    "apply": "https://scholarship.up.gov.in/"
+  },
+  {
+    "id": 603,
+    "name": "Mukhyamantri Krishak Durghatna Kalyan",
+    "benefit": "Insurance for farmers",
+    "category": "Agriculture",
+    "eligibility": { "farmer": true },
+    "documents": ["Land Record"],
+    "apply": "https://upagripardarshi.gov.in/"
+  },
+  {
+    "id": 604,
+    "name": "Chief Minister Jan Arogya Scheme",
+    "benefit": "Health assistance",
+    "category": "Health",
+    "eligibility": { "bpl": true },
+    "documents": ["Aadhaar"],
+    "apply": "https://up.gov.in/"
+  },
+  {
+    "id": 605,
+    "name": "Mukhyamantri Yuva Swarozgar Yojana",
+    "benefit": "Self-employment loans",
+    "category": "Business",
+    "eligibility": {},
+    "documents": ["Aadhaar", "Bank Account"],
+    "apply": "https://diupmsme.upsdc.gov.in/"
+  }
+]
+  }
